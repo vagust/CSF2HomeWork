@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ClassesLibrary
 {
-   public class ContactInfo
+    public class ContactInfo
     {
         private string _stretAddress;
         private string _city;
