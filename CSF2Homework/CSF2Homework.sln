@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesterProgram", "..\TesterP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassesLibrary", "ClassesLibrary\ClassesLibrary.csproj", "{A4C93377-F9A9-4DA9-9849-7C4E7B356630}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignatureLibrary", "SignatureLibrary\SignatureLibrary.csproj", "{A7510F35-B38C-4F99-8698-97D0C3051761}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{A4C93377-F9A9-4DA9-9849-7C4E7B356630}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4C93377-F9A9-4DA9-9849-7C4E7B356630}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4C93377-F9A9-4DA9-9849-7C4E7B356630}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7510F35-B38C-4F99-8698-97D0C3051761}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7510F35-B38C-4F99-8698-97D0C3051761}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7510F35-B38C-4F99-8698-97D0C3051761}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7510F35-B38C-4F99-8698-97D0C3051761}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

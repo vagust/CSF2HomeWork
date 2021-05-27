@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ClassesLibrary;
 
 namespace TesterProgram
 {
@@ -10,6 +11,9 @@ namespace TesterProgram
     {
         static void Main(string[] args)
         {
+            Student s1 = new Student();
+           
+            Console.WriteLine(s1);
         }
     }
 }
