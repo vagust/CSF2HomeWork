@@ -13,6 +13,8 @@ namespace ClassesLibrary
         // To keep everything protected we make this private and use camelCase
         private string _firstName;
         private string _lastName;
+        private string _id;
+        private float _gpa;
 
         //Properties it seems this is how the finds the objects that  I am making 
         // The get is the display i think and the set is the value so it will look like 
@@ -29,7 +31,7 @@ namespace ClassesLibrary
             get { return _firstName; }
             set { _firstName = value; }
 
-          
+
 
         }
         public string LastName
@@ -37,11 +39,23 @@ namespace ClassesLibrary
             get { return _lastName; }
             set { _lastName = value; }
         }
+        public string Id
+        {
+            get { return _id; }
+            set { _id = value; }
+        }
+        public float Gpa
+        {
+            get { return _gpa; }
+            set { _gpa = value}
+        }
         //ctors not sure how to exsplan this but the are how the objects will show really ask more about this when you have time for now follow the Employee guild on _3Wednesday   ->Charity -> Employee.cs
-        public Student(string firstName, string lastName)
+        public Student(string firstName, string lastName, string id, float gpa)
         {
             FirstName = firstName;
             LastName = lastName;
+            Id = id;
+            Gpa = gpa;
         }
         public Student()
         {
@@ -52,8 +66,11 @@ namespace ClassesLibrary
             //return base.ToString();
             return string.Format("Student: {0}\n" +
                 "First Name: {1}\n" +
-                "Last Name: {2}\n",
-                FirstName, LastName);
+                "Last Name: {2}\n" +
+                "Id: {3}\n" +
+                "Gpa: {4}",
+                FirstName, LastName, Id, Gpa);
+                
         }
     }
 }
