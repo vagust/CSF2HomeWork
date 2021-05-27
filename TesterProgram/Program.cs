@@ -12,6 +12,10 @@ namespace TesterProgram
         static void Main(string[] args)
         {
             Student s1 = new Student();
+            s1.FirstName = "Lavagust";
+            s1.LastName = "Fox";
+            s1.Id = "LFox";
+            s1.Gpa = 3.5f;
            
             Console.WriteLine(s1);
         }

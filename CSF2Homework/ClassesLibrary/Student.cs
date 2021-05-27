@@ -47,7 +47,7 @@ namespace ClassesLibrary
         public float Gpa
         {
             get { return _gpa; }
-            set { _gpa = value}
+            set { _gpa = value; }
         }
         //ctors not sure how to exsplan this but the are how the objects will show really ask more about this when you have time for now follow the Employee guild on _3Wednesday   ->Charity -> Employee.cs
         public Student(string firstName, string lastName, string id, float gpa)
@@ -64,11 +64,11 @@ namespace ClassesLibrary
         public override string ToString()
         {
             //return base.ToString();
-            return string.Format("Student: {0}\n" +
-                "First Name: {1}\n" +
-                "Last Name: {2}\n" +
-                "Id: {3}\n" +
-                "Gpa: {4}",
+            return string.Format("Student: \n" +
+                "First Name: {0}\n" +
+                "Last Name: {1}\n" +
+                "Id: {2}\n" +
+                "Gpa: {3:f}",
                 FirstName, LastName, Id, Gpa);
                 
         }
